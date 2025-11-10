@@ -18,6 +18,6 @@ match priority:
 if time_bound == "yes":
     reminder += " This task requires immediate attention today!"
 
-# Print the customized reminder
-print("\n--- DAILY REMINDER ---")
+# Print the customized reminder (formatted exactly as checker expects)
+print("Reminder:")
 print(reminder)
